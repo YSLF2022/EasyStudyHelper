@@ -1,15 +1,14 @@
+#!/usr/bin/python3
+# coding=UTF-8
 """
 Author:郑一鸣
 Version : 0.1 beta 1
 Last Update 2022/2/11
 """
-#!/usr/bin/python3
-# coding:UTF-8
 from cefpython3 import cefpython as cef
 import platform
 import sys
 import os,json,sys
-from re import U
 import random     #此处的ReadJsonMod为同目录下的ReadJsonMod.py
 def main():
     Math_Questions = ["小明把他的500元压岁钱,买了五年期的国家建设债券,年利率按3.81％计算.到期时,小明的利息共有多少元?（只写数字）","淘气家投保了”家庭财产保险“,保险金额为15万元,保险期限三年.按年保险费率0.5％计算,共需缴纳保险费多少元?(只写数字)","某校六年级有女生120人,男生人数比女生少20％,男生有多少人?（只写数字）","把630本图书按3?4分给五年级和六年级,六年级分得图书( )本。（只写数字）","	一个水库有一定的蓄水量，河水每天又均匀的流入水库，5台抽水机连续抽20天可以抽干：6台同样的抽水机连续15天可以抽干，如果想6天抽干，需要多少台同样的抽水机？"];#数学题库
