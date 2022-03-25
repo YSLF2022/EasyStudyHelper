@@ -1,5 +1,3 @@
-Dim WSHShell
-Set WSHShell = WScript.CreateObject("WScript.Shell")
-WSHShell.RegDelete("璁＄畻鏈篭HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ADMX_ShellCommandPromptRegEditTools\DisableCMD")
-WSHShell.RegDelete("璁＄畻鏈篭HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ADMX_ShellCommandPromptRegEditTools\DisableRegedit")
-msgbox("done") 
+' ENDGAME
+msgbox("这个文件已经毫无作用了，你可以直接删掉它")
+msgbox("THIS FILE HAVE NO USE NOW,YOU CAN DELETE IT")
